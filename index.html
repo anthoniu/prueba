@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- <div class="header-menu">
+        <button id="menu-toggle" class="menu-button"><i class="fa-solid fa-bars"></i></button>
+        <nav id="mobile-menu" class="mobile-menu">
+            <button id="menu-close" class="menu-close"><i class="fa-solid fa-xmark"></i></button>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catalogo</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </div> -->
+    <header>
+        <div class="container header-container" style="max-width: 1520px;" data-aos="fade-zoom-in">
+            <div class="row">
+                <div class="col-md-4" style="justify-content: start; width: 20%;">
+                    <div class="logo"><img src="img/logo.png" alt="este es el logo"></div>
+                </div>
+                <div class="col-md-4" style="justify-content: center;width: 45%;">
+                    <nav class="navbar">
+                        <ul class="navbar-nav">
+                            <li><a href=""><i class='bx bx-home-alt'></i> Inicio</a></li>
+                            <li><a href=""><i class='bx bx-grid-alt'></i> Catalogo</a></li>
+                            <li><a href=""><i class='bx bx-id-card'></i> Acerca de</a></li>
+                            <li><a href=""><i class='bx bx-phone'></i> Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-4" style="justify-content: end;">
+                    <form action="" class="search">
+                        <input type="text" placeholder="Busca la pagina que necesites...">
+                        <button><i class='bx bx-search'></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="hero" style="background-image: url(img/hero-background.jpg);">
+        <div class="hide">
+            <div class="title" data-aos="fade-zoom-in">
+                <h1 id="title">POTENCIA TU PRESENCIA ONLINE CON EL MEJOR SERVICIO EN DESARROLLO EN SITIOS WEB</h1>
+                <a href="#">QUIERO UN SITIO WEB</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <main class="main">
+            <div class="services">
+                <div class="container" style="max-width: 1500px;">
+                    <div class="row" style="align-items: center;justify-content: center;--bs-gutter-x:0.4rem">
+                        <div class="col-md-3" data-aos="fade-right" data-aos-duration="500">
+                            <div class="service-card">
+                                <div class="service-logo">
+                                    <i class="fa-solid fa-server"></i>
+                                    <h3>Host Gratuito</h3>
+                                    <span>Hosting web robusto y confiable con almacenamiento escalable, ancho de banda y soporte técnico completo.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" data-aos="fade-right" data-aos-duration="500">
+                            <div class="service-card">
+                                <div class="service-logo">
+                                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                                    <h3>Mantenimiento y Soporte</h3>
+                                    <span>Actualizaciones, seguridad y mejoras para tu sitio web, garantizando un rendimiento óptimo. Equipo experto.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" data-aos="fade-left" data-aos-duration="500">
+                            <div class="service-card">
+                                <div class="service-logo">
+                                    <i class="fa-solid fa-envelope-circle-check"></i>
+                                    <h3>Correo Coorporativo</h3>
+                                    <span>Correo empresarial con dominio personalizado para mejorar la imagen profesional y garantizar comunicaciones seguras y accesibles.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" data-aos="fade-left" data-aos-duration="500">
+                            <div class="service-card">
+                                <div class="service-logo">
+                                    <i class="fa-solid fa-shield-virus"></i>
+                                    <h3>Seguridad y Proteccion de datos</h3>
+                                    <span>Seguridad digital con certificados SSL, encriptación y auditorías para proteger tu plataforma y clientes.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container page-content" style="max-width: 2000px;padding: 20px; background-color: #202020; margin-top: 90px;">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                    style="padding: 20px;" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="carousel-inner" style="padding: 20px;">
+                        <div class="carousel-item active">
+                            <div class="d-flex align-items-center" style="gap: 200px;">
+                                <div class="col-md-6">
+                                    <div class="page-images">
+                                        <img class="everguard-dekstop animated-image" src="img/Global1.png" alt="">
+                                        <img class="everguard-dekstop animated-image" src="img/Global-mobile.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 page-text" style="width: 30%;">
+                                    <h1>AGENCIA DE VIAJES</h1>
+                                    <span>Esta plantilla fue desarrollada pensando en una Agencia de Viajes, ofreciendo
+                                        una
+                                        plataforma en línea completa para la planificación y reserva de tus próximas
+                                        aventuras.</span>
+                                    <a href="">LEER MÁS</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="d-flex align-items-center" style="gap: 200px;">
+                                <div class="col-md-6">
+                                    <div class="page-images">
+                                        <img class="everguard-dekstop animated-image" src="img/Sweet Eden1.png" alt="">
+                                        <img class="everguard-dekstop animated-image" src="img/Sweet_Eden-mobile.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 page-text" style="width: 30%;">
+                                    <h1>PASTELERIA</h1>
+                                    <span>Este sitio web fue creado para la Pastelería Dulce Encanto, ofreciendo una
+                                        experiencia en línea que captura la esencia y la pasión por la repostería
+                                        artesanal.</span>
+                                    <a href="">LEER MÁS</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="d-flex align-items-center" style="gap: 200px;">
+                                <div class="col-md-6">
+                                    <div class="page-images">
+                                        <img class="everguard-dekstop animated-image" src="img/Max-Strength1.png"
+                                            alt="">
+                                        <img class="everguard-dekstop animated-image" src="img/Max-Strength-mobile.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 page-text" style="width: 30%;">
+                                    <h1>GIMNASIO</h1>
+                                    <span>Esta plantilla fue diseñada pensando en un gimnasio, ofreciendo una plataforma
+                                        en
+                                        línea
+                                        que facilita a los usuarios la gestión de su salud y bienestar.</span>
+                                    <a href="">LEER MÁS</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="d-flex align-items-center" style="gap: 200px;">
+                                <div class="col-md-6">
+                                    <div class="page-images">
+                                        <img class="everguard-dekstop animated-image" src="img/EverGuard1.png" alt="">
+                                        <img class="everguard-dekstop animated-image" src="img/EverGuard-mobile.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 page-text" style="width: 30%;">
+                                    <h1>SEGURO DE VIDA</h1>
+                                    <span>Esta plantilla fue creada pensando en una agencia de seguros de vida, con el
+                                        objetivo
+                                        de proporcionar una plataforma en línea moderna y eficiente para la gestión de
+                                        seguros.</span>
+                                    <a href="">LEER MÁS</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+                    <div class="view-all" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+                        data-aos-offset="0" data-aos-duration="1000">
+                        <a class="all-catalog" href="">VER TODO EL CATALOGO</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catagory-content" style="background-color: rgb(255, 255, 255);">
+                <div class="container" style="max-width: 1400px;">
+                    <div data-aos="zoom-in" style="text-align: center;display: flex;justify-content: center;flex-direction: column;">
+                        <h1 class="category-explore" style="color: #ff8f33;">CATEGORIAS</h1>
+                        <p class="desc-explore">Explora a fondo todas nuestras categorias para obtener mejores detalles
+                            de nuestros servicios
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4" data-aos="fade-up" data-aos-duration="800">
+                            <div class="porfolios category">
+                                <img class="category-img" src="img/EverGuard1.png" alt="">
+                                <div class="card">
+                                    <h2>PORTAFOLIOS</h2>
+                                    <span>Un portafolio está diseñado para mostrar el trabajo de un profesional o una
+                                        empresa de manera visualmente atractiva, ideal para artistas, diseñadores,
+                                        fotógrafos y otros creativos que desean destacar sus proyectos.
+                                    </span>
+                                    <a href="">VER CATEGORIA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1300">
+                            <div class="blogs category">
+                                <img class="category-img" src="img/EverGuard1.png" alt="">
+                                <div class="card">
+                                    <h2>BLOGS</h2>
+                                    <span>Los blogs son sitios web centrados en la publicación regular de contenido,
+                                        ideales
+                                        para compartir noticias, historias, consejos y opiniones sobre una variedad de
+                                        temas.
+                                    </span>
+                                    <a href="">VER CATEGORIA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1800">
+                            <div class="blogs category">
+                                <img class="category-img" src="img/EverGuard1.png" alt="">
+                                <div class="card">
+                                    <h2>COORPORATIVO</h2>
+                                    <span>Un sitio web corporativo ofrece una presencia en línea profesional para
+                                        empresas,
+                                        proporcionando información sobre servicios, productos, misión y valores, así
+                                        como
+                                        detalles de contacto y oportunidades de negocios.
+                                    </span>
+                                    <a href="">VER CATEGORIA</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 50px;">
+                        <div class="col-md-4" data-aos="fade-up" data-aos-duration="800">
+                            <div class="eecommerce category">
+                                <img class="category-img" src="img/EverGuard1.png" alt="">
+                                <div class="card">
+                                    <h2>TIENDA VIRTUAL</h2>
+                                    <span>Una tienda virtual permite a las empresas vender productos o servicios en
+                                        línea de
+                                        manera eficiente, con opciones de carrito de compras, procesamiento de pagos
+                                        seguros
+                                        y gestión de inventario
+                                    </span>
+                                    <a href="">VER CATEGORIA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1300">
+                            <div class="landing category">
+                                <img class="category-img" src="img/EverGuard1.png" alt="">
+                                <div class="card">
+                                    <h2>LANDING PAGE</h2>
+                                    <span>Una landing page es una página web diseñada específicamente para campañas de
+                                        marketing o publicidad, enfocada en convertir visitantes en leads o clientes
+                                        mediante un llamado a la acción claro.
+                                    </span>
+                                    <a href="">VER CATEGORIA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1800">
+                            <div class="informativos category">
+                                <img class="category-img" src="img/EverGuard1.png" alt="">
+                                <div class="card">
+                                    <h2>INFORMATIVOS</h2>
+                                    <span>Un sitio web informativo está diseñado para proporcionar información detallada
+                                        sobre un tema específico o una organización, ideal para instituciones
+                                        educativas,
+                                        ONGs, o empresas que buscan educar a su audiencia
+                                    </span>
+                                    <a href="">VER CATEGORIA</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-contact" style="background-color: #202020;padding: 60px 0;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6" data-aos="fade-right">
+                            <div class="formulario">
+                                <h1>CONTACTANOS</h1>
+                                <span>Contáctanos para obtener mayor información sobre nuestros servicios en desarrollo
+                                    web</span>
+                                <form action="">
+                                    <div class="nombre form-col">
+                                        <i class='bx bxs-user' style="position: absolute;"></i>
+                                        <input type="text" placeholder="Nombres y Apellidos">
+                                    </div>
+                                    <div class="numero form-col">
+                                        <i class='bx bx-mobile' style="position: absolute;"></i>
+                                        <input type="number" placeholder="Número de contacto">
+                                    </div>
+                                    <div class="correo form-col">
+                                        <i class='bx bx-envelope' style="position: absolute;"></i>
+                                        <input type="email" placeholder="Email">
+                                    </div>
+                                    <div class="mensaje form-col">
+                                        <i class='bx bx-chat' style="position: absolute;"></i>
+                                        <textarea placeholder="Dejanos un mensaje"></textarea>
+                                    </div>
+                                    <div class="enviar">
+                                        <button type="submit">ENVIAR</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos="fade-left">
+                            <div class="follow-us">
+                                <h1>SIGUENOS EN NUESTRAS REDES</h1>
+                                <span>Síguenos para no perderte de ninguna actualización o escribenos directamente a
+                                    nuestro
+                                    whatsapp
+                                </span>
+                                <div class="redes-sociales">
+                                    <a href=""><i class='bx bxl-linkedin'></i></a>
+                                    <a href=""><i class='bx bxl-tiktok'></i></a>
+                                    <a href=""><i class='bx bxl-youtube'></i></a>
+                                    <a href=""><i class='bx bxl-instagram'></i></a>
+                                    <a href=""><i class='bx bxl-facebook'></i></a>
+                                    <a href=""><i class='bx bxl-whatsapp'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <span>© 2024 Anthony Development. Todos los derechos reservados.</span>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.getElementById('menu-toggle');
+            const menuClose = document.getElementById('menu-close');
+            const headerMenu = document.querySelector('.header-menu');
+
+            menuToggle.addEventListener('click', function () {
+                headerMenu.classList.add('active');
+            });
+
+            menuClose.addEventListener('click', function () {
+                headerMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
